@@ -1,7 +1,7 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
-const { notes } = require("./db/db.json");
+let { notes } = require("./db/db.json");
 
 const PORT = process.env.PORT || 3000;
 const app = express();
@@ -91,9 +91,15 @@ app.post("/api/notes", (req, res) => {
   }
 });
 
-app.delete("/api/notes", (req,res)=>
-console.log(req)
-)
+app.delete("/api/notes/:id", (req,res)=>{
+const result = findById(req.params.id, notes);
+if (result.id) {
+  notes= notes.filter(notes=> notes !== result);
+  res.json(result)
+} else {
+  res.send(404);
+}
+});
 
 
 //route the local to html file

@@ -20,5 +20,4 @@ I really want to create the front end to see how this match together.
 
 The script file that I download beyond my knowlegde, which make me eager to learn.
 
-The delete buton is still a mystery (I try to understand the code and update it with the app.delete, but still working with it)
 

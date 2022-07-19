@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data
 app.use(express.json());
 // provide a file path to a location in our application
-app.use(express.static('public'));
+app.use(express.static("public"));
 
 function filterByQuery(query, notesArray) {
   let filteredResults = notesArray;
@@ -90,10 +90,17 @@ app.post("/api/notes", (req, res) => {
     res.json(note);
   }
 });
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/index.html'));
-    //make the local https start as index.html
-  });
-  app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/notes.html'));
-  });
+
+app.delete("/api/notes", (req,res)=>
+console.log(req)
+)
+
+
+//route the local to html file
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/index.html"));
+  //make the local https start as index.html
+});
+app.get("/notes", (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/notes.html"));
+});

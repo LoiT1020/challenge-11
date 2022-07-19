@@ -1,22 +1,24 @@
 # Note Taker Starter Code
 
-GIVEN a note-taking application
+## Thing to say
 
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
+I still learning and fixing the professional READNE challenge so there will not be having a good readme.
 
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand 
-column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+## How the aassigment getting done
 
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
+I restart the whole module with the file challenge have given me.
 
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+At lesson one, I can create a port and path the API to db.json file
 
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
+At lesson two, I update app.post so I can push new data to the database
 
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+At lesson three, I connect the backend with front end together.
+
+## Feature
+
+I really want to create the front end to see how this match together.
+
+The script file that I download beyond my knowlegde, which make me eager to learn.
+
+The delete buton is still a mystery (I try to understand the code and update it with the app.delete, but still working with it)
+

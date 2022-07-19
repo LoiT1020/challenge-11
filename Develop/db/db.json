@@ -2,13 +2,13 @@
  "notes": [
   {
    "id": "0",
-   "title": "Test",
-   "text": "Test"
+   "title": "Test tilte",
+   "text": "Test text"
   },
   {
    "id": "1",
-   "tilte": "Hello",
-   "test": "Hello world !!"
+   "title": "Hello",
+   "text": "Hello world !!"
   },
   {
    "title": "afsds",

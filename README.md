@@ -1,5 +1,9 @@
 # Note Taker Starter Code
 
+## Deploy
+
+https://aqueous-sea-19157.herokuapp.com/
+
 ## Thing to say
 
 I still learning and fixing the professional READNE challenge so there will not be having a good readme.
